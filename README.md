@@ -1,2 +1,9 @@
-# Electronic-Component-Tracker
-Electron application to inventory electronic components
+# ECT(Electronic Component Tracker)
+
+ECT is an [inventory management software](https://en.wikipedia.org/wiki/Inventory_management_software), primarily designed for electronic components.
+
+ECT is written using Node.js, HTML5, CSS and the Electron framework.
+
+ECT is part 1 of a multi-part system designed for tracking and managing Electronic components in tandem with a modular hardware interface for akro-mils storage bins.
+
+This application can be used as is without the modular hardware interface.
