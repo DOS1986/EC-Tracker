@@ -7,7 +7,7 @@ import { filter, map, switchMap } from 'rxjs/operators';
 
 import { environment } from '@env/environment';
 import { Logger, untilDestroyed } from '@core';
-import { I18nService } from '@app/i18n';
+import { I18nService } from '@modules/components/i18n';
 
 const log = new Logger('App');
 

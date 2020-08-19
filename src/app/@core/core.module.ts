@@ -5,8 +5,8 @@ import { RouteReuseStrategy, RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { RouteReusableStrategy } from './route-reusable-strategy';
-import { ApiPrefixInterceptor } from './http/api-prefix.interceptor';
-import { ErrorHandlerInterceptor } from './http/error-handler.interceptor';
+import { ApiPrefixInterceptor } from './interceptors/api-prefix.interceptor';
+import { ErrorHandlerInterceptor } from './interceptors/error-handler.interceptor';
 
 @NgModule({
   imports: [CommonModule, HttpClientModule, TranslateModule, RouterModule],

@@ -4,7 +4,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { I18nModule } from '@app/i18n';
+import { I18nModule } from '@modules/components/i18n';
 import { ShellComponent } from './shell.component';
 
 @NgModule({
